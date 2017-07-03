@@ -3,5 +3,7 @@ project(carn_term2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES src/main.cpp)
+set(SOURCE_FILES
+        src/main.cpp
+        src/MeasurementPackage.h src/GroundTruthPackage.h)
 add_executable(carn_term2 ${SOURCE_FILES})

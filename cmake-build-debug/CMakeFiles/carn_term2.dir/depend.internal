@@ -204,4 +204,6 @@ CMakeFiles/carn_term2.dir/src/main.cpp.o
  /home/nick/CLionProjects/carn-term2/src/Eigen/src/plugins/CommonCwiseUnaryOps.h
  /home/nick/CLionProjects/carn-term2/src/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  /home/nick/CLionProjects/carn-term2/src/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+ /home/nick/CLionProjects/carn-term2/src/GroundTruthPackage.h
+ /home/nick/CLionProjects/carn-term2/src/MeasurementPackage.h
  /home/nick/CLionProjects/carn-term2/src/main.cpp

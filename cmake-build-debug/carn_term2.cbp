@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/nick/CLionProjects/carn-term2/src/GroundTruthPackage.h">
+			<Option target="carn_term2"/>
+		</Unit>
+		<Unit filename="/home/nick/CLionProjects/carn-term2/src/MeasurementPackage.h">
+			<Option target="carn_term2"/>
+		</Unit>
 		<Unit filename="/home/nick/CLionProjects/carn-term2/src/main.cpp">
 			<Option target="carn_term2"/>
 		</Unit>
