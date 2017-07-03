@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/carn_term2.dir/src/main.cpp.o  -o carn_term2 

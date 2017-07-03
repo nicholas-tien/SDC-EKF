@@ -1,0 +1,3 @@
+/home/nick/CLionProjects/carn-term2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nick/CLionProjects/carn-term2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nick/CLionProjects/carn-term2/cmake-build-debug/CMakeFiles/carn_term2.dir
