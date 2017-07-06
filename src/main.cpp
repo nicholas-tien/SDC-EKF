@@ -32,7 +32,7 @@ void check_argument(int argc,char* argv[])
     }
     else if(argc == 3)
     {
-        args_valid == true;
+        args_valid = true;
     }
     else if(argc >  3)
     {
@@ -90,7 +90,7 @@ int main(int argc,char* argv[]) {
             //LASER measurement
 
             //read measurement at this timestamp
-            meas_pack.sensor_type_ == MeasurementPackage::LASER;
+            meas_pack.sensor_type_ = MeasurementPackage::LASER;
             meas_pack.raw_measurements_ = VectorXd(2);
 
             float x;
@@ -101,7 +101,7 @@ int main(int argc,char* argv[]) {
 
             meas_pack.raw_measurements_ << x, y;
             iss >> timestamp;
-            meas_pack.timeStamp_ == timestamp;
+            meas_pack.timeStamp_ = timestamp;
             meas_packages.push_back(meas_pack);
 
         } else if(sensor_type.compare("R") == 0){
@@ -109,7 +109,7 @@ int main(int argc,char* argv[]) {
             //RADAR measurements
 
             //read measurements at this timestamp
-            meas_pack.sensor_type_ == MeasurementPackage::RADAR;
+            meas_pack.sensor_type_ = MeasurementPackage::RADAR;
             meas_pack.raw_measurements_ = VectorXd(2);
             float ro;
             float phi;

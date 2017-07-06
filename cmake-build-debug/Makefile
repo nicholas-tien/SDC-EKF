@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/nick/software/clion-2017.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/nick/software/clion-2017.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/CLionProjects/carn-term2
+CMAKE_SOURCE_DIR = /Users/tsx/study/SDC-term2/SDC-EKF
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/CLionProjects/carn-term2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/nick/CLionProjects/carn-term2/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/nick/software/clion-2017.1.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/nick/software/clion-2017.1.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/CLionProjects/carn-term2/cmake-build-debug/CMakeFiles /home/nick/CLionProjects/carn-term2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/CLionProjects/carn-term2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ carn_term2/fast:
 	$(MAKE) -f CMakeFiles/carn_term2.dir/build.make CMakeFiles/carn_term2.dir/build
 .PHONY : carn_term2/fast
 
+src/FusionEKF.o: src/FusionEKF.cpp.o
+
+.PHONY : src/FusionEKF.o
+
+# target to build an object file
+src/FusionEKF.cpp.o:
+	$(MAKE) -f CMakeFiles/carn_term2.dir/build.make CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o
+.PHONY : src/FusionEKF.cpp.o
+
+src/FusionEKF.i: src/FusionEKF.cpp.i
+
+.PHONY : src/FusionEKF.i
+
+# target to preprocess a source file
+src/FusionEKF.cpp.i:
+	$(MAKE) -f CMakeFiles/carn_term2.dir/build.make CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.i
+.PHONY : src/FusionEKF.cpp.i
+
+src/FusionEKF.s: src/FusionEKF.cpp.s
+
+.PHONY : src/FusionEKF.s
+
+# target to generate assembly for a file
+src/FusionEKF.cpp.s:
+	$(MAKE) -f CMakeFiles/carn_term2.dir/build.make CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.s
+.PHONY : src/FusionEKF.cpp.s
+
+src/KalmanFilter.o: src/KalmanFilter.cpp.o
+
+.PHONY : src/KalmanFilter.o
+
+# target to build an object file
+src/KalmanFilter.cpp.o:
+	$(MAKE) -f CMakeFiles/carn_term2.dir/build.make CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o
+.PHONY : src/KalmanFilter.cpp.o
+
+src/KalmanFilter.i: src/KalmanFilter.cpp.i
+
+.PHONY : src/KalmanFilter.i
+
+# target to preprocess a source file
+src/KalmanFilter.cpp.i:
+	$(MAKE) -f CMakeFiles/carn_term2.dir/build.make CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.i
+.PHONY : src/KalmanFilter.cpp.i
+
+src/KalmanFilter.s: src/KalmanFilter.cpp.s
+
+.PHONY : src/KalmanFilter.s
+
+# target to generate assembly for a file
+src/KalmanFilter.cpp.s:
+	$(MAKE) -f CMakeFiles/carn_term2.dir/build.make CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.s
+.PHONY : src/KalmanFilter.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... carn_term2"
+	@echo "... src/FusionEKF.o"
+	@echo "... src/FusionEKF.i"
+	@echo "... src/FusionEKF.s"
+	@echo "... src/KalmanFilter.o"
+	@echo "... src/KalmanFilter.i"
+	@echo "... src/KalmanFilter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

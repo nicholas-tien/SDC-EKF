@@ -5,5 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         src/main.cpp
-        src/MeasurementPackage.h src/GroundTruthPackage.h)
+        src/KalmanFilter.cpp
+        src/FusionEKF.cpp
+    )
 add_executable(carn_term2 ${SOURCE_FILES})
