@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/nick/software/clion-2017.1.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/nick/software/clion-2017.1.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tsx/study/SDC-term2/SDC-EKF
+CMAKE_SOURCE_DIR = /home/nick/CLionProjects/SDC-EKF
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug
+CMAKE_BINARY_DIR = /home/nick/CLionProjects/SDC-EKF/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/carn_term2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/carn_term2.dir/flags.make
 
 CMakeFiles/carn_term2.dir/src/main.cpp.o: CMakeFiles/carn_term2.dir/flags.make
 CMakeFiles/carn_term2.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/carn_term2.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carn_term2.dir/src/main.cpp.o -c /Users/tsx/study/SDC-term2/SDC-EKF/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/carn_term2.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carn_term2.dir/src/main.cpp.o -c /home/nick/CLionProjects/SDC-EKF/src/main.cpp
 
 CMakeFiles/carn_term2.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carn_term2.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tsx/study/SDC-term2/SDC-EKF/src/main.cpp > CMakeFiles/carn_term2.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/SDC-EKF/src/main.cpp > CMakeFiles/carn_term2.dir/src/main.cpp.i
 
 CMakeFiles/carn_term2.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carn_term2.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tsx/study/SDC-term2/SDC-EKF/src/main.cpp -o CMakeFiles/carn_term2.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/SDC-EKF/src/main.cpp -o CMakeFiles/carn_term2.dir/src/main.cpp.s
 
 CMakeFiles/carn_term2.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/carn_term2.dir/src/main.cpp.o.provides.build: CMakeFiles/carn_term2.d
 
 CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o: CMakeFiles/carn_term2.dir/flags.make
 CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o: ../src/KalmanFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o -c /Users/tsx/study/SDC-term2/SDC-EKF/src/KalmanFilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o -c /home/nick/CLionProjects/SDC-EKF/src/KalmanFilter.cpp
 
 CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tsx/study/SDC-term2/SDC-EKF/src/KalmanFilter.cpp > CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/SDC-EKF/src/KalmanFilter.cpp > CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.i
 
 CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tsx/study/SDC-term2/SDC-EKF/src/KalmanFilter.cpp -o CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/SDC-EKF/src/KalmanFilter.cpp -o CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.s
 
 CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o.provides.build: CMakeFiles/carn
 
 CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o: CMakeFiles/carn_term2.dir/flags.make
 CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o: ../src/FusionEKF.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o -c /Users/tsx/study/SDC-term2/SDC-EKF/src/FusionEKF.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o -c /home/nick/CLionProjects/SDC-EKF/src/FusionEKF.cpp
 
 CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tsx/study/SDC-term2/SDC-EKF/src/FusionEKF.cpp > CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/SDC-EKF/src/FusionEKF.cpp > CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.i
 
 CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tsx/study/SDC-term2/SDC-EKF/src/FusionEKF.cpp -o CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/SDC-EKF/src/FusionEKF.cpp -o CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.s
 
 CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o.requires:
 
@@ -129,11 +129,36 @@ CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o.provides: CMakeFiles/carn_term2.di
 CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o.provides.build: CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o
 
 
+CMakeFiles/carn_term2.dir/src/Tools.cpp.o: CMakeFiles/carn_term2.dir/flags.make
+CMakeFiles/carn_term2.dir/src/Tools.cpp.o: ../src/Tools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/carn_term2.dir/src/Tools.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carn_term2.dir/src/Tools.cpp.o -c /home/nick/CLionProjects/SDC-EKF/src/Tools.cpp
+
+CMakeFiles/carn_term2.dir/src/Tools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carn_term2.dir/src/Tools.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/SDC-EKF/src/Tools.cpp > CMakeFiles/carn_term2.dir/src/Tools.cpp.i
+
+CMakeFiles/carn_term2.dir/src/Tools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carn_term2.dir/src/Tools.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/SDC-EKF/src/Tools.cpp -o CMakeFiles/carn_term2.dir/src/Tools.cpp.s
+
+CMakeFiles/carn_term2.dir/src/Tools.cpp.o.requires:
+
+.PHONY : CMakeFiles/carn_term2.dir/src/Tools.cpp.o.requires
+
+CMakeFiles/carn_term2.dir/src/Tools.cpp.o.provides: CMakeFiles/carn_term2.dir/src/Tools.cpp.o.requires
+	$(MAKE) -f CMakeFiles/carn_term2.dir/build.make CMakeFiles/carn_term2.dir/src/Tools.cpp.o.provides.build
+.PHONY : CMakeFiles/carn_term2.dir/src/Tools.cpp.o.provides
+
+CMakeFiles/carn_term2.dir/src/Tools.cpp.o.provides.build: CMakeFiles/carn_term2.dir/src/Tools.cpp.o
+
+
 # Object files for target carn_term2
 carn_term2_OBJECTS = \
 "CMakeFiles/carn_term2.dir/src/main.cpp.o" \
 "CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o" \
-"CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o"
+"CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o" \
+"CMakeFiles/carn_term2.dir/src/Tools.cpp.o"
 
 # External object files for target carn_term2
 carn_term2_EXTERNAL_OBJECTS =
@@ -141,9 +166,10 @@ carn_term2_EXTERNAL_OBJECTS =
 carn_term2: CMakeFiles/carn_term2.dir/src/main.cpp.o
 carn_term2: CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o
 carn_term2: CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o
+carn_term2: CMakeFiles/carn_term2.dir/src/Tools.cpp.o
 carn_term2: CMakeFiles/carn_term2.dir/build.make
 carn_term2: CMakeFiles/carn_term2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable carn_term2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable carn_term2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/carn_term2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +180,7 @@ CMakeFiles/carn_term2.dir/build: carn_term2
 CMakeFiles/carn_term2.dir/requires: CMakeFiles/carn_term2.dir/src/main.cpp.o.requires
 CMakeFiles/carn_term2.dir/requires: CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o.requires
 CMakeFiles/carn_term2.dir/requires: CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o.requires
+CMakeFiles/carn_term2.dir/requires: CMakeFiles/carn_term2.dir/src/Tools.cpp.o.requires
 
 .PHONY : CMakeFiles/carn_term2.dir/requires
 
@@ -162,6 +189,6 @@ CMakeFiles/carn_term2.dir/clean:
 .PHONY : CMakeFiles/carn_term2.dir/clean
 
 CMakeFiles/carn_term2.dir/depend:
-	cd /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tsx/study/SDC-term2/SDC-EKF /Users/tsx/study/SDC-term2/SDC-EKF /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug /Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nick/CLionProjects/SDC-EKF/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/CLionProjects/SDC-EKF /home/nick/CLionProjects/SDC-EKF /home/nick/CLionProjects/SDC-EKF/cmake-build-debug /home/nick/CLionProjects/SDC-EKF/cmake-build-debug /home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/carn_term2.dir/depend
 

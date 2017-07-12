@@ -7,6 +7,7 @@
 #include "Eigen/Dense"
 #include "MeasurementPackage.h"
 #include "GroundTruthPackage.h"
+#include "FusionEKF.h"
 
 
 using namespace std;
@@ -110,7 +111,7 @@ int main(int argc,char* argv[]) {
 
             //read measurements at this timestamp
             meas_pack.sensor_type_ = MeasurementPackage::RADAR;
-            meas_pack.raw_measurements_ = VectorXd(2);
+            meas_pack.raw_measurements_ = VectorXd(3);
             float ro;
             float phi;
             float ro_dot;
@@ -140,7 +141,61 @@ int main(int argc,char* argv[]) {
 
     }
 
+    //Create a fusion EKF instance
+    FusionEKF fusionEKF;
 
+    //used to compute the RMSE later
+    vector<VectorXd> estimations;
+    vector<VectorXd> ground_truth;
+
+    //Call the EKF-based fusion
+    size_t N = meas_packages.size();
+    for(size_t k = 0; k < N; ++k){
+        fusionEKF.ProcessMeasurement(meas_packages[k]);
+
+        //output the estimation
+        out_file_ << fusionEKF.ekf_.x_(0) << "\t";
+        out_file_ << fusionEKF.ekf_.x_(1) << "\t";
+        out_file_ << fusionEKF.ekf_.x_(2) << "\t";
+        out_file_ << fusionEKF.ekf_.x_(3) << "\t";
+
+        //output the measurement
+        if(meas_packages[k].sensor_type_ == MeasurementPackage::LASER){
+            //output the estimation
+            out_file_ << meas_packages[k].raw_measurements_(0);
+            out_file_ << meas_packages[k].raw_measurements_(1);
+
+        } else if(meas_packages[k].sensor_type_ == MeasurementPackage::RADAR){
+            //output the estimation in the cartesian coordinates
+            float ro = meas_packages[k].raw_measurements_(0);
+            float phi = meas_packages[k].raw_measurements_(1);
+            out_file_ << ro * cos(phi) << "\t"; //pl_meas
+            out_file_ << ro * sin(phi) << "\t"; //ps_meas
+        }
+
+        //output the ground truth packages
+        out_file_ << gt_packages[k].gt_values_(0) << "\t";
+        out_file_ << gt_packages[k].gt_values_(1) << "\t";
+        out_file_ << gt_packages[k].gt_values_(2) << "\t";
+        out_file_ << gt_packages[k].gt_values_(3) << "\n";
+
+        estimations.push_back(fusionEKF.ekf_.x_);
+        ground_truth.push_back(gt_packages[k].gt_values_);
+
+    }
+
+    //compute the accuracy (RMSE)
+    Tools tools;
+    cout << "Accuracy - RMSE:" << endl << tools.calculateRMSE(estimations,ground_truth) << endl;
+
+    //close file
+    if(out_file_.is_open()){
+        out_file_.close();
+    }
+
+    if(in_file_.is_open()){
+        in_file_.close();
+    }
 
     return 0;
 }

@@ -4,7 +4,7 @@
 
 #include "FusionEKF.h"
 #include <iostream>
-//#include "Tools.h"
+#include "Tools.h"
 #include "Eigen/Dense"
 
 using namespace std;
@@ -129,4 +129,43 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
     }
 
 
+    /**********************************************************
+     *        Update
+     **********************************************************/
+    /**
+     * Use the sensor type to perform the update step.
+     * Update the state and covariance matrices
+     */
+
+    if(measurement_pack.sensor_type_ == MeasurementPackage::RADAR){
+//        cout << "RADAR" << endl;
+        //Radar Updates
+        VectorXd h = tools.calculateRadarMeasurementFunction(ekf_.x_);
+        VectorXd y = measurement_pack.raw_measurements_ - h;
+        Hj_ = tools.calculateJacobian(ekf_.x_);
+        ekf_.Update(y,Hj_,R_radar_);
+    } else if(measurement_pack.sensor_type_ == MeasurementPackage::LASER){
+        VectorXd y = measurement_pack.raw_measurements_ - (H_laser_ * ekf_.x_);
+        ekf_.Update(y,H_laser_,R_laser_);
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

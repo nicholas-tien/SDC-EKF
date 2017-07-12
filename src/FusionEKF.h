@@ -10,7 +10,7 @@
 #include <string>
 #include <fstream>
 #include "KalmanFilter.h"
-//#include "Tools.h"
+#include "Tools.h"
 
 class FusionEKF {
 public:
@@ -42,7 +42,7 @@ private:
     long previous_timestamp_;
 
     //tool object used to compute RMSE
-//    Tools tools;
+    Tools tools;
 
     MatrixXd R_laser_;  // Laser measurement covariance matrix
     MatrixXd R_radar_;  // radar measurement covariance matrix

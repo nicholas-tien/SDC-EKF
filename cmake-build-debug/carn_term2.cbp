@@ -8,96 +8,104 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug"/>
+				<Option working_dir="/home/nick/CLionProjects/SDC-EKF/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug"/>
+				<Option working_dir="/home/nick/CLionProjects/SDC-EKF/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug"/>
+				<Option working_dir="/home/nick/CLionProjects/SDC-EKF/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="carn_term2">
-				<Option output="/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/carn_term2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug"/>
+				<Option output="/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/carn_term2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nick/CLionProjects/SDC-EKF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 carn_term2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 carn_term2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="carn_term2/fast">
-				<Option output="/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/carn_term2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug"/>
+				<Option output="/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/carn_term2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nick/CLionProjects/SDC-EKF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 carn_term2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 carn_term2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tsx/study/SDC-term2/SDC-EKF/src/FusionEKF.cpp">
+		<Unit filename="/home/nick/CLionProjects/SDC-EKF/src/FusionEKF.cpp">
 			<Option target="carn_term2"/>
 		</Unit>
-		<Unit filename="/Users/tsx/study/SDC-term2/SDC-EKF/src/FusionEKF.h">
+		<Unit filename="/home/nick/CLionProjects/SDC-EKF/src/FusionEKF.h">
 			<Option target="carn_term2"/>
 		</Unit>
-		<Unit filename="/Users/tsx/study/SDC-term2/SDC-EKF/src/KalmanFilter.cpp">
+		<Unit filename="/home/nick/CLionProjects/SDC-EKF/src/KalmanFilter.cpp">
 			<Option target="carn_term2"/>
 		</Unit>
-		<Unit filename="/Users/tsx/study/SDC-term2/SDC-EKF/src/KalmanFilter.h">
+		<Unit filename="/home/nick/CLionProjects/SDC-EKF/src/KalmanFilter.h">
 			<Option target="carn_term2"/>
 		</Unit>
-		<Unit filename="/Users/tsx/study/SDC-term2/SDC-EKF/src/main.cpp">
+		<Unit filename="/home/nick/CLionProjects/SDC-EKF/src/Tools.cpp">
 			<Option target="carn_term2"/>
 		</Unit>
-		<Unit filename="/Users/tsx/study/SDC-term2/SDC-EKF/CMakeLists.txt">
+		<Unit filename="/home/nick/CLionProjects/SDC-EKF/src/Tools.h">
+			<Option target="carn_term2"/>
+		</Unit>
+		<Unit filename="/home/nick/CLionProjects/SDC-EKF/src/main.cpp">
+			<Option target="carn_term2"/>
+		</Unit>
+		<Unit filename="/home/nick/CLionProjects/SDC-EKF/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

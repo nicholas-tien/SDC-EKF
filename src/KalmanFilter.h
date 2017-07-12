@@ -13,7 +13,7 @@ using Eigen::VectorXd;
 class KalmanFilter {
 public:
     //state vector
-    MatrixXd x_;
+    VectorXd x_;
 
     //state covariance matrix
     MatrixXd P_;

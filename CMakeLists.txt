@@ -7,5 +7,5 @@ set(SOURCE_FILES
         src/main.cpp
         src/KalmanFilter.cpp
         src/FusionEKF.cpp
-    )
+        src/Tools.cpp)
 add_executable(carn_term2 ${SOURCE_FILES})

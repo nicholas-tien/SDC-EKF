@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/tsx/study/SDC-term2/SDC-EKF/src/FusionEKF.cpp" "/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o"
-  "/Users/tsx/study/SDC-term2/SDC-EKF/src/KalmanFilter.cpp" "/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o"
-  "/Users/tsx/study/SDC-term2/SDC-EKF/src/main.cpp" "/Users/tsx/study/SDC-term2/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/src/main.cpp.o"
+  "/home/nick/CLionProjects/SDC-EKF/src/FusionEKF.cpp" "/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/src/FusionEKF.cpp.o"
+  "/home/nick/CLionProjects/SDC-EKF/src/KalmanFilter.cpp" "/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/src/KalmanFilter.cpp.o"
+  "/home/nick/CLionProjects/SDC-EKF/src/Tools.cpp" "/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/src/Tools.cpp.o"
+  "/home/nick/CLionProjects/SDC-EKF/src/main.cpp" "/home/nick/CLionProjects/SDC-EKF/cmake-build-debug/CMakeFiles/carn_term2.dir/src/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
