@@ -3,12 +3,12 @@ Extended Kalman Filter For Sensor Fusion
 
 ## Results
 
-|      |   RMSE   |
-|------|：------： |
-| px   | 0.0868631 |
-| py   | 0.0791862 |
-| vx   | 0.616482  |
-| vy   | 0.602462  |
+      |   RMSE   
+---|------
+px   | 0.0868631 
+py   | 0.0791862 
+vx   | 0.616482  
+vy   | 0.602462  
 
 
 ## Depandencies
