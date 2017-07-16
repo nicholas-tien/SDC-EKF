@@ -25,7 +25,7 @@ Extended Kalman Filter For Sensor Fusion
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
 ## Kalman Filter Tutorials
-Here is a good video about EKF and UKF([Understanding Kalman Filters, Part 5: Nonlinear State Estimators](https://cmake.org/install/))
+Here is a good video about EKF and UKF([Understanding Kalman Filters, Part 5: Nonlinear State Estimators](https://www.youtube.com/watch?v=Vefia3JMeHE))
 
 
 ## Basic Build Instructions
