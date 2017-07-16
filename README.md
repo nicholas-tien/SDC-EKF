@@ -24,6 +24,9 @@ Extended Kalman Filter For Sensor Fusion
   * Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
+## Kalman Filter Tutorials
+Here is a good video about EKF and UKF([Understanding Kalman Filters, Part 5: Nonlinear State Estimators](https://cmake.org/install/))
+
 
 ## Basic Build Instructions
 
